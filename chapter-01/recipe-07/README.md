@@ -5,3 +5,5 @@ and the configurations (`Debug`, `Release`, and so forth) CMake offers.
 
 
 - [example](example/)
+
+should use `cmake -G "Visual Stuido 14 2015 Win64 -D CMAKE_CONFIGURATION_TYPES="Release;Debug" ..` instead of `cmake .. -G "Visual Stuido 14 2015 Win64 -D CMAKE_CONFIGURATION_TYPES="Release;Debug"`
